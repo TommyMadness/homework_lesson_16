@@ -15,6 +15,7 @@ selene = "==2.0.0rc9"
 [tool.poetry.group.dev.dependencies]
 pylint = "3.3.6"
 allure-pytest = "^2.13.5"
+python-dotenv = "^1.1.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
