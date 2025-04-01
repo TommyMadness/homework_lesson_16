@@ -5,6 +5,7 @@ description = "Автотесты с использованием pytest и sele
 authors = [
     {name = "TommyMadness"}
 ]
+package-mode = false
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
 dependencies = [
