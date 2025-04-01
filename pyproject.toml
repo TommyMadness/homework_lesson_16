@@ -6,9 +6,9 @@ authors = ["TommyMadness"]
 license = "MIT"
 readme = "README.md"
 package-mode = false
-requires-python = ">=3.12,<4.0"
 
 [tool.poetry.dependencies]
+python = ">=3.12,<4.0"
 pytest = ">=8.3.5"
 selene = "==2.0.0rc9"
 
