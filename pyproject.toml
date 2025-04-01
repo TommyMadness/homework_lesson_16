@@ -1,22 +1,20 @@
-[project]
+[tool.poetry]
 name = "homework-lesson-16"
 version = "0.1.0"
 description = "Автотесты с использованием pytest и selene"
-authors = [
-    {name = "TommyMadness"}
-]
-package-mode = false
+authors = ["TommyMadness"]
+license = "MIT"
 readme = "README.md"
+package-mode = false
 requires-python = ">=3.12,<4.0"
-dependencies = [
-    "pytest (>=8.3.5)",
-    "selene (==2.0.0rc9)"
-]
 
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
+[tool.poetry.dependencies]
+pytest = ">=8.3.5"
+selene = "==2.0.0rc9"
 
 [tool.poetry.group.dev.dependencies]
 pylint = "3.3.6"
 
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
